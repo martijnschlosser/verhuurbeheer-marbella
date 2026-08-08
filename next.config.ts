@@ -21,13 +21,13 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: "/property-management-estepona",
-        destination: "/vastgoedbeheer-estepona",
+        source: "/property-management-marbella",
+        destination: "/vastgoedbeheer-marbella",
         permanent: true,
       },
       {
-        source: "/property-management-estepona/",
-        destination: "/vastgoedbeheer-estepona/",
+        source: "/property-management-marbella/",
+        destination: "/vastgoedbeheer-marbella/",
         permanent: true,
       },
     ];
