@@ -192,7 +192,7 @@ function LocalizedHome() {
     })),
   };
   return (
-    <main>
+    <main lang="en">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
@@ -696,5 +696,5 @@ function LocalizedHome() {
   );
 }
 
-export const metadata = { keywords: ["property management Marbella","holiday rental management Marbella","Airbnb management Marbella","key holding Marbella","home checks Marbella","second home management Marbella","villa management Marbella","apartment management Marbella"], title: "Property Management Marbella | Holiday Rental & Key Holding", description: "Local property management in Marbella for international owners: holiday rental management, Airbnb management, key holding, home checks, cleaning and maintenance.", alternates: { canonical: "/en/", languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" } }, openGraph: { locale: "en_GB", url: "/en/", type: "website" as const } };
+export const metadata = { robots: { index: false, follow: true }, keywords: ["property management Marbella","holiday rental management Marbella","Airbnb management Marbella","key holding Marbella","home checks Marbella","second home management Marbella","villa management Marbella","apartment management Marbella"], title: "Property Management Marbella | Holiday Rental & Key Holding", description: "Local property management in Marbella for international owners: holiday rental management, Airbnb management, key holding, home checks, cleaning and maintenance.", alternates: { canonical: "/en/", languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" } }, openGraph: { locale: "en_GB", url: "/en/", type: "website" as const } };
 export default LocalizedHome;
