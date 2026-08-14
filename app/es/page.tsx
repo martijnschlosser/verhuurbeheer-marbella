@@ -192,7 +192,7 @@ function LocalizedHome() {
     })),
   };
   return (
-    <main>
+    <main lang="es">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
@@ -696,5 +696,5 @@ function LocalizedHome() {
   );
 }
 
-export const metadata = { keywords: ["gestión de propiedades Marbella","gestión de alquiler vacacional Marbella","gestión de Airbnb Marbella","custodia de llaves Marbella","revisión de viviendas Marbella","gestión de segunda residencia Marbella","mantenimiento de viviendas Marbella","administración de propiedades Marbella"], title: "Gestión de Propiedades en Marbella | Alquiler Vacacional y Llaves", description: "Gestión local de propiedades en Marbella: alquiler vacacional, gestión de Airbnb, custodia de llaves, revisiones, limpieza y mantenimiento.", alternates: { canonical: "/es/", languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" } }, openGraph: { locale: "es_ES", url: "/es/", type: "website" as const } };
+export const metadata = { robots: { index: false, follow: true }, keywords: ["gestión de propiedades Marbella","gestión de alquiler vacacional Marbella","gestión de Airbnb Marbella","custodia de llaves Marbella","revisión de viviendas Marbella","gestión de segunda residencia Marbella","mantenimiento de viviendas Marbella","administración de propiedades Marbella"], title: "Gestión de Propiedades en Marbella | Alquiler Vacacional y Llaves", description: "Gestión local de propiedades en Marbella: alquiler vacacional, gestión de Airbnb, custodia de llaves, revisiones, limpieza y mantenimiento.", alternates: { canonical: "/es/", languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" } }, openGraph: { locale: "es_ES", url: "/es/", type: "website" as const } };
 export default LocalizedHome;
